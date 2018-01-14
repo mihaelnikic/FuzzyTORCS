@@ -1,0 +1,21 @@
+AKO UNUTAR_TRAKE je "lijevo" ONDA VOLAN je "desno"
+AKO UNUTAR_TRAKE je "točno" ONDA VOLAN je "ravno"
+AKO UNUTAR_TRAKE je "desno" ONDA VOLAN je "lijevo"
+
+AKO KUT je "lijevo" ONDA VOLAN je "desno"
+AKO KUT je "centar" ONDA VOLAN je "ravno"
+AKO KUT je "desno" ONDA VOLAN je "lijevo"
+
+AKO UDALJENOST_STAZE_SENZOR9 je "mala" I BRZINA_X je "srednja ILI velika" ONDA AKCELERACIJA je "mala"
+AKO UDALJENOST_STAZE_SENZOR9 je "velika" I BRZINA_X je "mala" ONDA AKCELERACIJA je "velika"
+AKO UDALJENOST_STAZE_SENZOR9 je "izvan" ONDA AKCELERACIJA je "srednja"
+#AKO UDALJENOST_STAZE_SENZOR9 je "mala" I BRZINA_X je "velika" ONDA AKCELERACIJA je "mala"
+
+
+AKO UDALJENOST_STAZE_SENZOR9 je "velika" I BRZINA_X je "mala" ONDA KOČNICA je "nestisnuta"
+AKO UDALJENOST_STAZE_SENZOR9 je "izvan" ONDA KOČNICA je "nestisnuta"
+AKO UDALJENOST_STAZE_SENZOR9 je "mala" I BRZINA_X je "velika" ONDA KOČNICA je "stisnuta"
+
+#AKO PRIJEĐENI_PUT je "Kritično mali" ONDA MJENJAČ je "sredina"
+#AKO PRIJEĐENI_PUT nije "Kritično mali" I UDALJENOST_STAZE_SENZOR9 je "velika" I BRZINA_X je "srednja ILI velika" ONDA MJENJAČ je "manje pojačan"
+#AKO PRIJEĐENI_PUT nije "Kritično mali" I  UDALJENOST_STAZE_SENZOR9 je "mala" I BRZINA_X je "srednja ILI velika" ONDA MJENJAČ je "smanjen"
